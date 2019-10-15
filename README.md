@@ -1,2 +1,2 @@
 # AzurePAVM
-Azure PA-VMs
+Azure PA-VMs deployment with managed disk
