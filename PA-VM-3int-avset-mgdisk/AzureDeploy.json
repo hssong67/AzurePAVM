@@ -320,7 +320,7 @@
                         "version": "[parameters('imageVersion')]"
                     },
                     "osDisk": {
-                        "name": "[concat(parameters('vmName'),'disk')]",
+                        "name": "['os',concat(parameters('vmName'),'disk')]",
                         "managedDisk": {
                             "storageAccountType": "[parameters('storageAccountType')]"
                         },
