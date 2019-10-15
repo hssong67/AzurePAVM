@@ -59,7 +59,7 @@
             }
         },
         "imageVersion": {
-            "defaultValue": "7.1.1",
+            "defaultValue": "8.1.0",
             "allowedValues": [
                 "7.1.1",
                 "8.1.0",
@@ -71,7 +71,7 @@
             }
         },
         "imageSku": {
-            "defaultValue": "bundle2",
+            "defaultValue": "byol",
             "allowedValues": [
                 "byol",
                 "bundle1",
