@@ -19,7 +19,7 @@
             "defaultValue": "",
             "type": "String",
             "metadata": {
-                "description": "Storage Accounts Resource Group."
+                "description": "Storage Accounts Resource Group"
             }
         },
         "storageAccountType": {
