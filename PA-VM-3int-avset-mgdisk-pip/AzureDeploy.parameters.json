@@ -32,7 +32,7 @@
             ],
             "type": "String",
             "metadata": {
-                "description": "Type of the storage account used for Firewall Managed Disk"
+                "description": "Type of the storage account used for Firewall Managed Disk - depends on VM sizes"
             }
         },
         "fwAvSet": {
