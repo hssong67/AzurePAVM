@@ -6,13 +6,13 @@
             "defaultValue": "VM-FW1",
             "type": "String",
             "metadata": {
-                "description": "Name of VM-Series FW in the Azure portal"
+                "description": "Name of VM-Series FW in the Azure portal."
             }
         },
         "storageAccountName": {
             "type": "String",
             "metadata": {
-                "description": "Name of the EXISTING storage account used to store the VM's disks"
+                "description": "Name of the EXISTING storage account used to store the VM's disks."
             }
         },
         "storageAccountExistingRG": {
@@ -32,14 +32,14 @@
             ],
             "type": "String",
             "metadata": {
-                "description": "Type of the storage account used for Firewall Managed Disk - depends on VM sizes"
+                "description": "Type of the storage account used for Firewall Managed Disks."
             }
         },
         "fwAvSet": {
             "defaultValue": "AS-FW",
             "type": "String",
             "metadata": {
-                "description": "EXISTING Availability Set name for Firewalls"
+                "description": "EXISTING Availability Set name for Firewalls."
             }
         },
         "vmSize": {
