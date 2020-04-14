@@ -59,10 +59,10 @@
             }
         },
         "imageVersion": {
-            "defaultValue": "8.1.0",
+            "defaultValue": "9.0.4",
             "allowedValues": [
-                "7.1.1",
-                "8.1.0",
+                "8.1.9",
+                "9.0.4",
                 "latest"
             ],
             "type": "String",
