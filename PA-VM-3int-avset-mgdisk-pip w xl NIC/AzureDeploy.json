@@ -19,7 +19,7 @@
             "defaultValue": "",
             "type": "String",
             "metadata": {
-                "description": "Storage Accounts Resource Group."
+                "description": "Storage Accounts Resource Group"
             }
         },
         "storageAccountType": {
@@ -59,10 +59,10 @@
             }
         },
         "imageVersion": {
-            "defaultValue": "8.1.0",
+            "defaultValue": "9.0.4",
             "allowedValues": [
-                "7.1.1",
-                "8.1.0",
+                "8.1.9",
+                "9.0.4",
                 "latest"
             ],
             "type": "String",
@@ -259,7 +259,7 @@
             "type": "Microsoft.Network/networkInterfaces",
             "name": "[concat(variables('nicName'), '0')]",
             "location": "[resourceGroup().location]",
-            "apiVersion": "2019-09-01",
+            "apiVersion": "2018-10-01",
             "dependsOn": [
                 "[concat('Microsoft.Network/publicIPAddresses/', parameters('publicIPAddressName'))]"
             ],
@@ -283,7 +283,7 @@
         },
         {
             "type": "Microsoft.Network/networkInterfaces",
-            "apiVersion": "2019-09-01",
+            "apiVersion": "2018-10-01",
             "name": "[concat(variables('nicName'), '1')]",
             "location": "[resourceGroup().location]",
             "dependsOn": [],
@@ -306,7 +306,7 @@
         },
         {
             "type": "Microsoft.Network/networkInterfaces",
-            "apiVersion": "2019-09-01",
+            "apiVersion": "2018-10-01",
             "name": "[concat(variables('nicName'), '2')]",
             "location": "[resourceGroup().location]",
             "properties": {
