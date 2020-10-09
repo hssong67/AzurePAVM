@@ -11,4 +11,4 @@ This template was build to deploy of a 3 interfaces Palo Alto Networks firewall 
                     
 It is required to match the name of above items and subnet prefix.
 
-This template is not provide PIP. If you don't have VGW or Express Route, you will need to create PIP and attath it to the management interface of VM to access it.
+This template is not providing the PIP. If you don't have VGW or Express Route, you will need to create PIP and attath it to the management interface of VM to access it.
