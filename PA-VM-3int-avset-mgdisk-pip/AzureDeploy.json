@@ -63,6 +63,7 @@
             "allowedValues": [
                 "8.1.9",
                 "9.0.4",
+                "9.1.0",
                 "latest"
             ],
             "type": "String",
