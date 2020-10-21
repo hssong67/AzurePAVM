@@ -7,7 +7,6 @@ This template was build to deploy of a 3 interfaces Palo Alto Networks firewall 
                     -VNET - with subnets (mamagement, untrust and trust)
                     -Storage Account for the firewall - managed disk
                     -Resource Group for Firewall
-                    -Availablitiy Set
                     
 It is required to match the name of above items and subnet prefix.
 

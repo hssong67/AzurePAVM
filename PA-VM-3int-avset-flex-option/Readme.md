@@ -9,6 +9,6 @@ This template was build to deploy of a 3 interfaces Palo Alto Networks firewall 
                     -Resource Group for Firewall
                     -Availablitiy Set
                     
-It is required to match the name of above items and subnet prefix.
+It is required to match the name of above items and subnet prefix. This one give you option to select vmseries-flex imageoffer for the 9.1.3 and higher version.
 
 This template will enable Accelerated Networking on data NICs.
